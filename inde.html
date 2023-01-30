@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codificador e Decodificador de Texto</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/icone.png" type="image/ x-icon">                                                                    
+</head>
+<body>
+    
+    <main class="container-main">
+        <header class="cabecalho">
+            <img src="img/lagus.png" alt="lagus imagem" class="lagus">
+            <h1>Mensagens Codificadas</h1>
+        </header>
+
+        <div class="container-texto"> 
+            <div class="texto">
+                <textarea id="texto-input" placeholder="Digite o texto aqui..."></textarea>
+                <p>Por favor: Digite apenas letras maiúsculas sem acento...</p>
+            </div>
+
+            <div id="output">
+                <img src="img/lagus.png" alt="logus imagem" height="330px" width="400px">
+                <h2>Aqui vai aperecer sua mensagem...</h2>
+                <span>Digite o texto para criptografar ou descriptografar.</span>
+            </div>
+        </div>
+
+        <div class="buttons">
+            <div class="container-btn">
+                <button onclick="criptografar()" class="btn-criptografar">CRIPTOGRAFAR</button>
+                <button onclick="descriptografar()" class="btn-descriptografar">DESCRIPTOGRAFAR</button>
+            </div>
+        </div>
+    </main>
+
+    <footer class="rodape">
+        <div class="icon">
+            <a href=""><ion-icon name="logo-instagram"></ion-icon></ion-icon></a>
+            <a href=""><ion-icon name="logo-github"></ion-icon></ion-icon><a>     
+        </div>
+        <h3>Desenvolvido por Marcelo Alves Nogueira</h3>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script type = "module" src = "https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script> 
+    <script nomodule src = "https://unpkg .com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
